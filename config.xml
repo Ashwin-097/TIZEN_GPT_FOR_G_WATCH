@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget
+xmlns="http://www.w3.org/ns/widgets"
+xmlns:tizen="http://tizen.org/ns/widgets"
+id="org.chatgpt.watch"
+version="1.0.0"
+viewmodes="maximized">
+
+    <name>ChatGPT</name>
+
+    <content src="index.html"/>
+
+    <icon src="icon.png"/>
+
+    <tizen:application
+        id="org.chatgpt.watch"
+        package="org.chatgpt"
+        required_version="4.0"/>
+
+    <tizen:profile name="wearable"/>
+
+    <tizen:setting
+        screen-orientation="portrait"
+        context-menu="disable"
+        background-support="disable"
+        encryption="disable"
+        install-location="auto"
+        hwkey-event="enable"/>
+
+    <tizen:privilege
+        name="http://tizen.org/privilege/internet"/>
+
+</widget>
