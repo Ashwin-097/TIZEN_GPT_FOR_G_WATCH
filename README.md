@@ -1,4 +1,4 @@
-I made this app for Samsung galaxy active watch. ( vibe coding)
+I made this app for Samsung galaxy active watch. (prompt‑driven development)
 Current status :  Discontinued ( i didn't buy this watch and don't have paid open AI api keys)
 
 
